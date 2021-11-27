@@ -1,11 +1,5 @@
-#include <stdio.h>
-#include <time.h>
 #include <iostream>
-#include <cstdio>
-#include <stdlib.h>
 #include <windows.h>
-#include <string> 
-#include <locale.h>
 #include <ctime>
 #define BITMAP_HEADER_SIZE 40 + 14 
 
@@ -146,13 +140,13 @@ time_t asm_MMX(unsigned w, unsigned h, unsigned bpp, FILE* in, FILE* out, int r,
 
 		movd mm0, [esi]
 		movq mm1, qword ptr r
-		psubb mm0, mm1
+		psubusb mm0, mm1
 		movd [esi], mm0
 
 		add esi, 2
 		movd mm0, [esi]
 		movq mm1, qword ptr b
-		psubb mm0, mm1
+		psubusb mm0, mm1
 		movd [esi], mm0
 		
 		add esi, 1
