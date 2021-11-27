@@ -38,5 +38,8 @@
 # space_mmx.bmp (средствами MMX)
 ![image](https://user-images.githubusercontent.com/53607329/143721046-9cb2cbd2-6735-4fd6-a034-33573dd2c62d.png)
 
+# Некоторые любопытные результаты
+
+![image](https://user-images.githubusercontent.com/53607329/143721238-fef8ddd0-c7a1-4806-8d05-7e0d671966dc.png)
 
 
