@@ -12,7 +12,7 @@
   _и сделать вывод об эффективности векторных операций._ 
   
   
- ## Вариант 11
+ ## Вариант 11 (_решение неэффективно_)
   ### Уменьшить яркость синей и красной составляющих у нечётных строк.
 
 
@@ -43,3 +43,31 @@
 ![image](https://user-images.githubusercontent.com/53607329/143721238-fef8ddd0-c7a1-4806-8d05-7e0d671966dc.png)
 
 
+
+
+
+ ## Вариант 7(решение эффективно)
+  ### Увеличить яркость вертикальными полосами по 64 пикселя.
+
+
+## Output [Console]
+
+![image](https://user-images.githubusercontent.com/53607329/144760905-de85b51a-af8f-4bb2-8a91-eea1aa40a163.png)
+
+![image](https://user-images.githubusercontent.com/53607329/144760907-9b872941-c763-4b22-8419-d40fe07b8422.png)
+
+![image](https://user-images.githubusercontent.com/53607329/144760920-25bb5418-ef5e-4956-ae52-c1bc82034995.png)
+
+
+## Output [Images]
+# space.bmp (исходная картинка)
+![image](https://user-images.githubusercontent.com/53607329/144760873-b8f3cb1c-38db-460a-bb7d-a5cf01eeba98.png)
+
+# space_c.bmp (средствами С++)
+![image](https://user-images.githubusercontent.com/53607329/144760885-3881b48e-17b9-482a-9c46-58f42b78d639.png)
+
+# space_scal.bmp (скалярными операциями)
+![image](https://user-images.githubusercontent.com/53607329/144760892-98ea8a68-0ff6-427d-9e87-ad211cca1e26.png)
+
+# space_mmx.bmp (средствами MMX)
+![image](https://user-images.githubusercontent.com/53607329/144760896-826ea069-1c62-4001-a4a3-7561bbbd6e68.png)
